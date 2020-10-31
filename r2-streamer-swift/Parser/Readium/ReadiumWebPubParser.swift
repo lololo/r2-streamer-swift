@@ -31,8 +31,8 @@ public class ReadiumWebPubParser: PublicationParser, Loggable {
         self.pdfFactory = pdfFactory
     }
     
-    public func parse(file: File, fetcher: Fetcher, warnings: WarningLogger?) throws -> Publication.Builder? {
-        guard let format = file.format, format.mediaType.isReadiumWebPubProfile else {
+    public func parse(asset: PublicationAsset, fetcher: Fetcher, warnings: WarningLogger?) throws -> Publication.Builder? {
+        guard let format = asset.format, format.mediaType.isReadiumWebPubProfile else {
             return nil
         }
         
