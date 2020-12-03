@@ -8,7 +8,7 @@
 //  Use of this source code is governed by a BSD-style license which is detailed
 //  in the LICENSE file present in the project repository where this source code is maintained.
 //
-
+import UIKit
 import R2Shared
 import Fuzi
 

@@ -9,6 +9,7 @@
 //  in the LICENSE file present in the project repository where this source code is maintained.
 //
 
+import UIKit
 import R2Shared
 import Fuzi
 
